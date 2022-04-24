@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>Square area</legend>
+            <form id="form1">
+                <label for="length">length</label>
+                <input type="text" id="height"><br> Select unit:
+                <select name="" id="unit1">
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="mm">mm</option>
+            </select>
+                <br>
+
+                <button type="submit"> Calculate</button>
+                <button type="reset" class="reset"> Reset</button>
+                <br><br>
+                <span class="square_result"></span>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Rectangle area</legend>
+            <form id="form2">
+                <label for="length">length</label>
+                <input type="text" id="lenth"><br>
+                <label for="width">width</label>
+                <input type="text" id="width"><br> Select unit:
+                <select name="" id="unit2">
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="mm">mm</option>
+            </select>
+                <button type="submit"> Calculate</button>
+                <button type="reset" class="reset"> Reset</button>
+                <br><br>
+                <span class="rectangle_result"></span>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Circle area</legend>
+            <form id="form3">
+                <label for="radiaus">Radius</label>
+                <input type="text" id="radius"><br> Select unit:
+                <select name="" id="unit3">
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="mm">mm</option>
+            </select>
+                <button type="submit"> Calculate</button>
+                <button type="reset" class="reset"> Reset</button>
+                <br><br>
+                <span class="circle_result"></span>
+            </form>
+        </fieldset>
+    </div>
+
+
+    <script src="js/square.js"> </script>
+    <script src="js/circle.js"> </script>
+    <script src="js/rectangle.js"> </script>
+</body>
+
+</html>
